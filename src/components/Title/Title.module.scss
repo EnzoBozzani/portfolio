@@ -1,0 +1,13 @@
+.boxTitle {
+    padding: 3rem;
+    width: 60%;
+    // display: flex;
+}
+
+.icon {
+    border: 2px solid transparent;
+    border-radius: 100%;
+    &:hover {
+        background-color: #e9e9e944;
+    }
+}
