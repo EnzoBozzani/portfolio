@@ -1,0 +1,16 @@
+@mixin common($angle){
+    width: 50%;
+    transform: rotate($angle);
+}
+
+.right {
+    @include common(-90deg);
+}
+
+.down {
+    @include common(0deg);
+}
+
+.left {
+    @include common(90deg);
+}

@@ -1,0 +1,32 @@
+@import "bootstrap/scss/bootstrap";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#root {
+    padding: 5rem;
+    min-height: 100vh;
+    background-color: #000;
+    display: flex;
+    gap: 5%;
+}
+
+.text-box {
+    border: 2px solid #dedede;
+    border-radius: 20px;
+    width: 30%;
+    padding: 1rem;
+    height: 292px;
+    transition: 0.75s;
+    &:hover {
+        background-color: #dedede;
+        scale: 1.05;
+        p {
+            color: #000;
+        }
+    }
+}
