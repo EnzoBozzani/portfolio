@@ -8,9 +8,11 @@
 }
 
 #root {
+    background-image: url(/bg.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     padding: 5rem;
     min-height: 100vh;
-    background-color: #000;
     display: flex;
     gap: 5%;
     flex-wrap: wrap;
@@ -24,10 +26,6 @@
     height: 292px;
     transition: 0.75s;
     &:hover {
-        background-color: #dedede;
-        scale: 1.05;
-        p {
-            color: #000;
-        }
+        background-color: #7536ce;
     }
 }

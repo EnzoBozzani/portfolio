@@ -1,13 +1,15 @@
 .boxTitle {
     padding: 3rem;
     width: 60%;
-    // display: flex;
+    display: flex;
+    flex-direction: column;
 }
 
-.icon {
-    border: 2px solid transparent;
-    border-radius: 100%;
-    &:hover {
-        background-color: #e9e9e944;
+.iconsDiv{
+    .icon {
+        width: 80px;
+        &:hover {
+            filter: invert(34%) sepia(86%) saturate(607%) hue-rotate(158deg) brightness(93%) contrast(96%);
+        }
     }
 }

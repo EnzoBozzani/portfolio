@@ -11,6 +11,16 @@ function App() {
       <TextBox text="Essa é minha faculdade"/>
       <Title/>
       <ArrowBox direction="Down"/>
+      <ArrowBox direction="Right"/>
+
+      <ArrowBox direction="Right"/>
+      <ArrowBox direction="Right"/>
+      <ArrowBox direction="Right"/>
+      <ArrowBox direction="Right"/>
+      <ArrowBox direction="Right"/>
+      <ArrowBox direction="Right"/>
+      <ArrowBox direction="Right"/>
+      <ArrowBox direction="Right"/>
     </>
   )
 }
