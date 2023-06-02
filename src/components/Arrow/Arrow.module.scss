@@ -1,16 +1,19 @@
 @mixin common($angle){
     width: 70%;
     transform: rotate($angle);
+    &:hover {
+        filter: invert(47%) sepia(40%) saturate(4418%) hue-rotate(201deg) brightness(103%) contrast(101%);
+    }
 }
 
 .right {
-    @include common(-90deg);
-}
-
-.down {
     @include common(0deg);
 }
 
-.left {
+.down {
     @include common(90deg);
+}
+
+.left {
+    @include common(180deg);
 }

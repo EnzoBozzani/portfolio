@@ -1,15 +1,38 @@
+@import "../../variables.scss";
+
 .boxTitle {
-    padding: 3rem;
+    height: 368px;
+    padding: 2.5rem 0;
+    margin-left: 3.5rem;
     width: 60%;
     display: flex;
-    flex-direction: column;
-}
+    gap: 2rem;
 
-.iconsDiv{
-    .icon {
-        width: 80px;
-        &:hover {
-            filter: invert(34%) sepia(86%) saturate(607%) hue-rotate(158deg) brightness(93%) contrast(96%);
+    .boxTitleInfo {
+        @include flex(center, flex-start);
+        flex-direction: column;
+    }
+
+    .nameTitle {
+        font-size: 3.5rem;
+        color: $main;
+    }
+
+    .profileImg {
+        border-radius: 50px;
+        width: 50%;
+    }
+
+    .iconsDiv {
+        @include flex(flex-start, center);
+        gap: 20px;
+
+        .icon {
+            width: 80px;
+
+            &:hover {
+                filter: invert(47%) sepia(40%) saturate(4418%) hue-rotate(201deg) brightness(103%) contrast(101%);
+            }
         }
     }
 }

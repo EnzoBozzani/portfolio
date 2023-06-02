@@ -11,10 +11,9 @@ function App() {
       <TextBox text="Essa é minha faculdade"/>
       <Title/>
       <ArrowBox direction="Down"/>
-      <ArrowBox direction="Right"/>
-
-      <ArrowBox direction="Right"/>
-      <ArrowBox direction="Right"/>
+      <TextBox text="Essa é minha faculdade"/> 
+      <ArrowBox direction="Left"/>
+      <TextBox text="Essa é minha faculdade"/>
       <ArrowBox direction="Right"/>
       <ArrowBox direction="Right"/>
       <ArrowBox direction="Right"/>

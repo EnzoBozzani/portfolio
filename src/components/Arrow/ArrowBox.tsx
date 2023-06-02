@@ -9,7 +9,7 @@ export default function ArrowBox(props: { direction: string }) {
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "center",
-                height: "292px"
+                height: "368px"
             }}>
                 <Arrow direction={props.direction} />
             </div>

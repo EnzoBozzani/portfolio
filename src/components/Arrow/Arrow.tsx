@@ -1,5 +1,5 @@
 import styles from "./Arrow.module.scss";
-import arrow from "/arrowDown.gif";
+import arrow from "/arrowDown.png";
 
 export default function Arrow(props: {direction: string}){
     let className;
@@ -13,7 +13,6 @@ export default function Arrow(props: {direction: string}){
     }
     return (
         <>
-            <img src={arrow} alt="Arrow Gif" className={className} />
             <img src={arrow} alt="Arrow Gif" className={className} />
         </>
     )
