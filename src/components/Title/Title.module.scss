@@ -2,29 +2,26 @@
 
 .boxTitle {
     height: 368px;
-    padding: 2.5rem 0;
-    margin-left: 3.5rem;
     width: 60%;
     display: flex;
     gap: 2rem;
-
     .boxTitleInfo {
         @include flex(center, flex-start);
         flex-direction: column;
     }
 
     .nameTitle {
-        font-size: 3.5rem;
+        font-size: 4rem;
         color: $main;
     }
 
     .profileImg {
         border-radius: 50px;
-        width: 50%;
+        width: 40%;
     }
 
     .iconsDiv {
-        @include flex(flex-start, center);
+        @include flex(center, center);
         gap: 20px;
 
         .icon {
