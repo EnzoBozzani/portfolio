@@ -10,10 +10,8 @@
 
 #root {
     background-color: #c300ef;
-    padding: 5rem;
     min-height: 100vh;
     @include flex(flex-start, flex-start);
-    gap: 5%;
     flex-wrap: wrap;
 }
 
@@ -22,6 +20,7 @@
     border-radius: 20px;
     width: 30%;
     padding: 1rem;
+    margin: 3rem 0 0 0;
     height: 368px;
     background-color: $main;
     @include flex(center, center);
@@ -29,4 +28,15 @@
         color: $secondary;
         font-size: 1.1rem;
     }
+}
+
+.accordion{
+    width: 90%;
+}
+
+.accordion-button, .accordion-body {
+    font-size: 1.1rem;
+    background-color: $main;
+    color: $secondary;
+    border-color: $secondary;
 }
