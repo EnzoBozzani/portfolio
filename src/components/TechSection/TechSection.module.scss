@@ -1,3 +1,8 @@
+@import "../../variables.scss";
+
 .wrapper {
     width: 100%;
+    @include flex(flex-start, flex-start);
+    flex-wrap: wrap;
+    gap: 30px;
 }

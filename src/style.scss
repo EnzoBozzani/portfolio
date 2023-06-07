@@ -65,3 +65,21 @@
         }
     }
 }
+
+.card {
+    width: 30%;
+    .card-img-top {
+        @include flex(center, center);
+        padding: 1rem 0;
+    }
+    img {
+        width: 75%;
+    }
+    .card-body {
+        background-color: $main;
+        color: $secondary;
+        a {
+            color: $secondary;
+        }
+    }
+}
