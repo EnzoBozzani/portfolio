@@ -5,10 +5,13 @@
     width: 60%;
     display: flex;
     gap: 2rem;
-    margin: 3rem 0 0 3rem;
+    margin: 2rem 0 0 3rem;
     .boxTitleInfo {
         @include flex(center, flex-start);
         flex-direction: column;
+        color: $main;
+        font-size: 1.15rem;
+        text-align: justify;
     }
 
     .nameTitle {
@@ -20,17 +23,32 @@
         border-radius: 50px;
         width: 40%;
     }
+}
 
-    .iconsDiv {
-        @include flex(center, center);
-        gap: 20px;
-
-        .icon {
-            width: 80px;
-
-            &:hover {
-                filter: invert(47%) sepia(40%) saturate(4418%) hue-rotate(201deg) brightness(103%) contrast(101%);
-            }
+@media (max-width: 1200px){
+    .boxTitle {
+        min-height: 368px;
+        width: 90%;
+        display: flex;
+        gap: 2rem;
+        margin: 2rem 0 0 3rem;
+        flex-wrap: wrap;
+        .boxTitleInfo {
+            @include flex(center, flex-start);
+            flex-direction: column;
+            color: $main;
+            font-size: 1.15rem;
+            text-align: justify;
+        }
+    
+        .nameTitle {
+            font-size: 3rem;
+            color: $main;
+        }
+    
+        .profileImg {
+            border-radius: 50px;
+            width: 70%;
         }
     }
 }

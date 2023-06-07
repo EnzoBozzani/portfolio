@@ -9,7 +9,7 @@
 }
 
 #root {
-    background-color: #c300ef;
+    background-color: $bg;
     min-height: 100vh;
     @include flex(flex-start, flex-start);
     flex-wrap: wrap;
@@ -20,7 +20,7 @@
     border-radius: 20px;
     width: 30%;
     padding: 1rem;
-    margin: 3rem 0 0 0;
+    margin: 2rem 0 0 0;
     height: 368px;
     background-color: $main;
     @include flex(center, center);
@@ -39,4 +39,29 @@
     background-color: $main;
     color: $secondary;
     border-color: $secondary;
+}
+
+@media (max-width: 1200px){
+    #root {
+        background-color: $bg;
+        min-height: 100vh;
+        @include flex(flex-start, center);
+        flex-direction: column;
+        gap: 50px 0;
+        flex-wrap: wrap;
+    }
+    .text-box {
+        border: 2px solid $secondary;
+        border-radius: 20px;
+        width: 90%;
+        padding: 1rem;
+        margin: 2rem 0 0 0;
+        height: 368px;
+        background-color: $main;
+        @include flex(center, center);
+        p {
+            color: $secondary;
+            font-size: 1.1rem;
+        }
+    }
 }

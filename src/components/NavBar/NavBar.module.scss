@@ -2,6 +2,22 @@
 
 .wrapper {
     width: 100vw;
-    height: 4rem;
-    background-color: $main;
+    height: 5rem;
+    @include flex(center, center);
+    gap: 30px;
+    a {
+        color: $main;
+        text-decoration: none;
+        transition: 0.15s;
+        &:hover {
+            color: $secondary;
+        }
+    }
+    .icon {
+        width: 60px;
+        transition: 0.15s;
+        &:hover {
+            filter: invert(41%) sepia(98%) saturate(618%) hue-rotate(187deg) brightness(100%) contrast(111%);
+        }
+    }
 }
