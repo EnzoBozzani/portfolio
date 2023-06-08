@@ -8,6 +8,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: $bg;
+}
+
 #root {
     background-color: $bg;
     min-height: 100vh;
@@ -67,15 +71,25 @@
 }
 
 .card {
-    width: 30%;
+    width: 27%;
+    border-radius: 30px;
+    border: 2px solid $secondary;
+    background-color: $main;
+    height: 650px;
     .card-img-top {
+        border-radius: 30px 30px 0 0;
+        background-color: $main;
         @include flex(center, center);
         padding: 1rem 0;
-    }
-    img {
-        width: 75%;
+        img {
+            width: 75%;
+        }
     }
     .card-body {
+        @include flex(space-between, flex-start);
+        flex-direction: column;
+        border-top: 2px solid $secondary;
+        border-radius: 0 0 30px 30px;
         background-color: $main;
         color: $secondary;
         a {

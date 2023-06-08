@@ -2,7 +2,7 @@
 
 .wrapper {
     width: 100%;
-    @include flex(flex-start, flex-start);
+    @include flex(space-evenly, flex-start);
     flex-wrap: wrap;
     gap: 30px;
 }
