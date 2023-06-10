@@ -2,7 +2,6 @@ import TextBox from "./components/TextBox";
 import Title from "./components/Title";
 import Accordion from "./components/Accordion";
 import NavBar from "./components/NavBar";
-import Carousel from "./components/Carousel";
 import TechSection from "./components/TechSection";
 import Card from "./components/Card";
 
@@ -16,13 +15,12 @@ function App() {
       <Accordion/>
       <p className="display-5 text-center w-100 mb-5" style={{color: "#01003f"}}>Technologies</p>
       <TechSection>
-        <Card img="/js-logo.png" title="JavaScript" text="My first contact with JS was even before college, when I did a simple JS course in YouTube, given by Curso em Video. Then, I had contact again with JS in college, and that made me very interested in learning Web Development in General. Because of that interest, I started FullStack JavaScript, a course given by OneBitCode. Through this course, I delved deeper into JavaScript." url="#"/> 
-        <Card img="/html-css.png" title="HTML & CSS" text="Just like JavaScript, I had my first contact with HTML and CSS before college, in the same YouTube course. After that, in college, I dealt with these technologies again in the Web Development subject. These technologies, just like JS, were explored in greater depth in the FullStack JavaScript course." url="#"/> 
-        <Card img="/ts-logo.png" title="TypeScript" text="I've learned TS through the same course and, since I've discovered it, it became without doubts my most used programming language. Nowadays, I use TypeScript in almost all web projects." url="#"/> 
-        <Card img="/sass-logo.png" title="SCSS/SASS & BootStrap" text="I've learned TS through OneBitCode course and it became my favourite language. I use TS in almost every project." url="https://github.com/EnzoBozzani/spacex"/> 
-        <Card img="/reacr-logo.png" title="React" text="React ..." url="#"/>
+        <Card img="/js-logo.png" title="JavaScript" text="My first contact with JS was even before college, when I did a simple JS course in YouTube, given by Curso em Video. Then, I had contact again with JS in college, and that made me very interested in learning Web Development in General. Because of that interest, I started FullStack JavaScript, a course given by OneBitCode. Through this course, I delved deeper into JavaScript." url="https://github.com/EnzoBozzani/search-countries-project"/> 
+        <Card img="/html-css.png" title="HTML & CSS" text="Just like JavaScript, I had my first contact with HTML and CSS before college, in the same YouTube course. After that, in college, I dealt with these technologies again in the Web Development subject. These technologies, just like JS, were explored in greater depth in the FullStack JavaScript course." url="https://github.com/EnzoBozzani/simple-calculator"/> 
+        <Card img="/ts-logo.png" title="TypeScript" text="I learned TypeScript during the same course, and since then, it has undoubtedly become my preferred programming language. Nowadays, TypeScript is a fundamental part of almost all my web projects. Throughout the course, I gained a solid understanding of TypeScript's features and benefits. Using TypeScript has made my development experience more efficient and enjoyable. " url="https://github.com/EnzoBozzani/github-api"/> 
+        <Card img="/sass-logo.png" title="SCSS/SASS & BootStrap" text="During the FullStack JavaScript course, I gained knowledge about SASS/SCSS and Bootstrap. These technologies have played a crucial role in my career as a developer, enabling me to create advanced styles and responsive interfaces efficiently. Currently, these technologies are an essential part of my workflow. I use SASS/SCSS to write more robust, modular, and easily maintainable styles. Bootstrap allows me to customize its components based on the requirements of each project, making it easier to develop visually appealing web interfaces." url="https://github.com/EnzoBozzani/spacex"/> 
+        <Card img="/reacr-logo.png" title="React" text=" I learned React through the same course and have been extensively using it, including for the complete construction of this portfolio.  I have been using React in various projects, its component-based approach and optimized performance have been instrumental in developing efficient web applications." url="#"/>
       </TechSection>
-      <Carousel/>
     </>
   )
 }
@@ -34,3 +32,4 @@ export default App
 //SCSS and BootStrap -> SpaceX CLone
 //TypeScript and React -> GitHub API
 //Mencionar que tal portfólio foi feito usando React, SCSS e BootStrap
+//Carrosel dos projetos do github

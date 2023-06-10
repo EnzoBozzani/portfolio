@@ -19,5 +19,3 @@ const Card = (props: {img: string, title: string, text: string, url: string}) =>
 }
 
 export default Card;
-
-//estilizar o botão e adicionar o funcionamento da função
