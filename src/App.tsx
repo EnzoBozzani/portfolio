@@ -4,6 +4,7 @@ import Accordion from "./components/Accordion";
 import NavBar from "./components/NavBar";
 import TechSection from "./components/TechSection";
 import Card from "./components/Card";
+import Carousel from "./components/Carousel";
 
 function App() {
 
@@ -21,15 +22,15 @@ function App() {
         <Card img="/sass-logo.png" title="SCSS/SASS & BootStrap" text="During the FullStack JavaScript course, I gained knowledge about SASS/SCSS and Bootstrap. These technologies have played a crucial role in my career as a developer, enabling me to create advanced styles and responsive interfaces efficiently. Currently, these technologies are an essential part of my workflow. I use SASS/SCSS to write more robust, modular, and easily maintainable styles. Bootstrap allows me to customize its components based on the requirements of each project, making it easier to develop visually appealing web interfaces." url="https://github.com/EnzoBozzani/spacex"/> 
         <Card img="/reacr-logo.png" title="React" text=" I learned React through the same course and have been extensively using it, including for the complete construction of this portfolio.  I have been using React in various projects, its component-based approach and optimized performance have been instrumental in developing efficient web applications." url="#"/>
       </TechSection>
+      <div className="mt-5 w-100">
+        <Carousel/>
+      </div>
     </>
   )
 }
 
 export default App
 
-//colocar os links para os projetos:
-//JS, CSS and HTML -> Calculadora 
-//SCSS and BootStrap -> SpaceX CLone
-//TypeScript and React -> GitHub API
-//Mencionar que tal portfólio foi feito usando React, SCSS e BootStrap
-//Carrosel dos projetos do github
+//inserir os projetos de alguma forma no portfólio
+//link do projeto React
+//responsividade
