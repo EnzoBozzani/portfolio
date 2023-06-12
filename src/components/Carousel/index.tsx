@@ -47,3 +47,6 @@ export default function Carousel() {
         </div>
     )
 }
+
+//adicionar imagens dos projetos do github
+//problema da centralizacão
