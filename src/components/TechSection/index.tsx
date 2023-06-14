@@ -7,5 +7,3 @@ export default function TechSection(props: any){
         </div>
     )
 }
-
-//usar bootstrap cards para as tecnologias (1 card p cada tech, criar um compoonente card aqui nessa pasta mesmo)

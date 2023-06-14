@@ -1,39 +1,23 @@
+import CarouselCard from "./CarouselCard"
+
 export default function Carousel() {
     return (
-        <div id="carouselExampleIndicators" className="carousel slide">
+        <div id="carouselExampleIndicators" className="carousel slide pb-5">
             <div className="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div className="carousel-inner">
-                <p className="display-5 text-center w-100">Some Projects</p>
+                <p className="display-5 text-center w-100 mb-5" style={{color: "#01003f"}}>Some Projects</p>
                 <div className="carousel-item active">
-                    <div className="card d-block w-50">
-                        <img src="..." className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
+                    <CarouselCard title="SpaceX Clone" text="This project was made using only SCSS, BootStrap & HTML. For compiling and packing were used Babel and Webpack." url="https://github.com/EnzoBozzani/spacex" src="/spacex.png"/>
                 </div>
                 <div className="carousel-item">
-                    <div className="card d-block w-50">
-                        <img src="..." className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
+                    <CarouselCard title="SpaceX Clone" text="This project was made using only SCSS, BootStrap & HTML. For compiling and packing were used Babel and Webpack." url="https://github.com/EnzoBozzani/spacex" src="/spacex.png"/>
                 </div>
                 <div className="carousel-item">
-                    <div className="card d-block w-50">
-                        <img src="..." className="card-img-top" alt="..." />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
+                    <CarouselCard title="SpaceX Clone" text="This project was made using only SCSS, BootStrap & HTML. For compiling and packing were used Babel and Webpack." url="https://github.com/EnzoBozzani/spacex" src="/spacex.png"/>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
