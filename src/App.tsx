@@ -36,7 +36,6 @@ function App() {
 export default App
 
 //tasks no arquivo src/components/ProjectSection
-//link do projeto React
 //responsividade
 //buscar paleta de cores melhor
 //background em bgjar.com (seguindo a paleta de cores escolhida) -> mudar para o bg animado

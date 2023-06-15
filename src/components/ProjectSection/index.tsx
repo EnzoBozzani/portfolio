@@ -7,15 +7,15 @@ export default function ProjectsSection(){
             <div className={`${styles.pSection} mx-auto mb-5 w-75`}>
             
             <div
-                style={{backgroundImage: "url('/ts-logo.png')"}}><span>SpaceX Clone</span></div>
+                style={{backgroundImage: "url('/spacex.png')"}}><span>SpaceX</span></div>
             <div
-                style={{backgroundImage: "url('/ts-logo.png')"}}><span>SpaceX Clone</span></div>
+                style={{backgroundImage: "url('/lp.png')"}}><span>Landing Page</span></div>
             <div
-                style={{backgroundImage: "url('/ts-logo.png')"}}><span>SpaceX Clone</span></div>
+                style={{backgroundImage: "url('/countries.png')"}}><span>Countries API</span></div>
             <div
-                style={{backgroundImage: "url('/ts-logo.png')"}}><span>SpaceX Clone</span></div>
+                style={{backgroundImage: "url('/calc.png')"}}><span>Calculator</span></div>
             <div
-                style={{backgroundImage: "url('/ts-logo.png')"}}><span>SpaceX Clone</span></div>
+                style={{backgroundImage: "url('/ts-logo.png')"}}><span>GitHub API</span></div>
         </div>
         </>
     )
