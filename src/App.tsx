@@ -26,7 +26,7 @@ function App() {
       <footer className="w-100 d-flex flex-column justify-content-center align-items-center">
         <span className="d-block ms-5">Other Social Media</span>
         <div className="d-flex justify-content-center align-items-center gap-3">
-          <a className="main-color">@enzobozzani</a><a href="https://www.instagram.com/enzobozzani/" className="main-color">Instagram</a><a href="https://twitter.com/enzobozzani" className="main-color">Twitter</a>
+          <a className="main-color">@enzobozzani</a><a href="https://www.instagram.com/enzobozzani/"  target="_blank" className="main-color">Instagram</a><a href="https://twitter.com/enzobozzani" target="_blank" className="main-color">Twitter</a>
         </div>
       </footer>
     </>
@@ -34,6 +34,3 @@ function App() {
 }
 
 export default App
-
-//tasks no arquivo src/components/ProjectSection
-//responsividade quase completa, só ver o do pSection e ver ajustes finais

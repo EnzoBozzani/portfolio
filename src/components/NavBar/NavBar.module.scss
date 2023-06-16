@@ -20,4 +20,12 @@
             filter: invert(41%) sepia(98%) saturate(618%) hue-rotate(187deg) brightness(100%) contrast(111%);
         }
     }
+    @media screen and (max-width: 400px){
+        a {
+             font-size: .9rem;
+        }
+        .icon {
+            width: 50px;
+        }
+    }
 }

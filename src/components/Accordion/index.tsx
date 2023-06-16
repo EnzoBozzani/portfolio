@@ -1,6 +1,6 @@
 export default function Accordion() {
     return (
-        <div className="accordion m-5" id="accordionExample">
+        <div className="accordion" id="accordionExample">
             <div className="accordion-item">
                 <h2 className="accordion-header">
                     <button className="accordion-button text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
