@@ -4,6 +4,13 @@
     display: flex;
     height: 20rem;
     gap: 1rem;
+    width: 75%;
+    margin: 0 auto 5rem;
+    @media screen and (max-width: 900px) {
+        height: 55rem;
+        width: 90%;
+        flex-direction: column;
+    }
     div {
         cursor: pointer;
         flex: 1;
@@ -13,8 +20,11 @@
         background-size: auto 100%;
         transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
         @include flex(center, end);
-        padding-bottom: 2rem;
+        @media screen and (max-width: 900px) {
+            width: 100%;
+        }
         span {
+            border-radius: 0 0 1rem 1rem;
             border: 2px solid $secondary;
             background-color: $main;
             color: $secondary;
@@ -24,7 +34,12 @@
         }
         &:hover {
             flex: 5;
+            @media screen and (max-width: 900px) {
+                flex: 1;
+            }
         }
     }
 }
+
+
 

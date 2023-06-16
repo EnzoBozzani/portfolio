@@ -36,6 +36,4 @@ function App() {
 export default App
 
 //tasks no arquivo src/components/ProjectSection
-//responsividade
-//buscar paleta de cores melhor
-//background em bgjar.com (seguindo a paleta de cores escolhida) -> mudar para o bg animado
+//responsividade quase completa, só ver o do pSection e ver ajustes finais

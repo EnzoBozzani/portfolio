@@ -12,10 +12,14 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: $bg3;
+}
+
 
 #root {
-    // background-color: $bg;
-    background-image: url(/Sprinkle.svg);
+    background-image: url(/bg.svg);
+    background-size: 100%;
     min-height: 100vh;
     @include flex(flex-start, flex-start);
     flex-wrap: wrap;
@@ -27,8 +31,12 @@ html {
     width: 30%;
     padding: 1rem;
     margin: 2rem 0 0 0;
-    min-height: 368px;
+    max-height: 368px;
     background-color: $main;
+    @media screen and (max-width: 1200px){
+        width: 90%;
+        margin: 5rem auto 0;
+    }
     @include flex(center, center);
     p {
         color: $secondary;
@@ -40,12 +48,19 @@ html {
     width: 90%;
 }
 
+.accordion-button, .accordion-body {
+    font-size: 1.1rem;
+    background-color: $main;
+    color: $secondary;
+    border-color: $secondary;
+}
+
 footer {
     height: 5rem;
     font-size: 1.1rem;
     span {
         font-size: .9rem;
-        color: #33333377;
+        color: $bg1;
     }
     a {
         transition: .3s;
@@ -68,12 +83,7 @@ footer {
     background-color: $main;
 }
 
-.accordion-button, .accordion-body {
-    font-size: 1.1rem;
-    background-color: $main;
-    color: $secondary;
-    border-color: $secondary;
-}
+
 
 
 

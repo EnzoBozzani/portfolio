@@ -6,49 +6,34 @@
     display: flex;
     gap: 2rem;
     margin: 2rem 0 0 3rem;
+    @media screen and (max-width: 1200px){
+        width: 100%;
+        gap: 2rem;
+    }
     .boxTitleInfo {
         @include flex(center, flex-start);
         flex-direction: column;
         color: $main;
         font-size: 1.15rem;
         text-align: justify;
+        @media screen and (max-width: 590px) {
+            font-size: .9rem;
+        }
     }
 
     .nameTitle {
         font-size: 4rem;
         color: $secondary;
+        @media screen and (max-width: 700px) {
+            font-size: 3rem;
+        }
+        @media screen and (max-width: 590px) {
+            font-size: 2.5rem;
+        }
     }
 
     .profileImg {
         border-radius: 50px;
         width: 40%;
-    }
-}
-
-@media (max-width: 1200px){
-    .boxTitle {
-        min-height: 368px;
-        width: 90%;
-        display: flex;
-        gap: 2rem;
-        margin: 2rem 0 0 3rem;
-        flex-wrap: wrap;
-        .boxTitleInfo {
-            @include flex(center, flex-start);
-            flex-direction: column;
-            color: $main;
-            font-size: 1.15rem;
-            text-align: justify;
-        }
-    
-        .nameTitle {
-            font-size: 3rem;
-            color: $main;
-        }
-    
-        .profileImg {
-            border-radius: 50px;
-            width: 70%;
-        }
     }
 }
