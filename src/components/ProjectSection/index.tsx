@@ -10,11 +10,9 @@ export default function ProjectsSection(){
                 <Project src="/lp.png" text="Landing Page" url="https://github.com/EnzoBozzani/landing-page"/>
                 <Project src="/countries.png" text="Countries API" url="https://github.com/EnzoBozzani/search-countries-project"/>
                 <Project src="/calc.png" text="Calculator" url="https://github.com/EnzoBozzani/simple-calculator"/>
-                <Project src="/github.svg" text="GitHub API" url="https://github.com/EnzoBozzani/github-api"/>
+                <Project src="/github.png" text="GitHub API" url="https://github.com/EnzoBozzani/github-api"/>
         </div>
         </>
     )
 }
 
-
-//foto do GitHub API
