@@ -29,3 +29,23 @@
         }
     }
 }
+
+
+.header {
+    button {
+        position: absolute;
+        top: 1.5rem;
+        right: 1rem;
+        padding: .25rem .5rem;
+        border-radius: 10px;
+        border: 2px solid $secondary;
+        color: $secondary;
+        background-color: $main;
+        transition: .5s;
+        &:hover {
+            color: $main;
+            background-color: $secondary;
+            transform: translate(0, -1px);
+        }
+    }
+}
