@@ -42,7 +42,7 @@ export default function Accordion(props: {lang: string}) {
                 </h2>
                 <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div className="accordion-body">
-                        {props.lang ! == '🇺🇸 (EN-US)' ?
+                        {props.lang !== '🇺🇸 (EN-US)' ?
                             (<>My native language is Portuguese, but I have an advanced level of English. I have studied English throughout my entire school life, from the age of 6 until I graduated from high school at 17. Additionally, I took private English lessons with a tutor from the age of 12 until 17.</>)
                             :
                             (<>Minha língua nativa é o português, mas tenho um nível avançado de inglês. Estudei inglês durante toda a minha vida escolar, desde os 6 anos até me formar no ensino médio aos 17 anos. Além disso, fiz aulas particulares de inglês com um tutor dos 12 aos 17 anos.</>)

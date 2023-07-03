@@ -57,7 +57,7 @@
     background-color: $main;
     color: $secondary;
     transition: 0.5s;
-
+    border-radius: 10px;
     &:hover {
         border-color: $main;
         color: $main;
