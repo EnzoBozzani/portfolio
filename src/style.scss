@@ -37,8 +37,11 @@ body {
     p {
         color: $secondary;
         font-size: 1.1rem;
+        @media screen and (max-width: 1440px){
+            font-size: 1rem;
+        }
         @media screen and (max-width: 390px){
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
     }
     @media screen and (max-width: 1200px){
