@@ -19,7 +19,8 @@ body {
 
 #root {
     background-image: url(/bg2.svg);
-    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center center;
     min-height: 100vh;
     @include flex(flex-start, flex-start);
     flex-wrap: wrap;
