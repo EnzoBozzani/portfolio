@@ -8,12 +8,8 @@
     margin: 2rem 2rem 0 3rem;
     @media screen and (max-width: 1200px){
         width: 100%;
-        gap: 2rem;
-        margin-right: 0;
     }
     @media screen and (max-width: 900px){
-        width: 100%;
-        gap: 2rem;
         margin-right: 2rem;
     }
     @media screen and (max-width: 770px) {
@@ -46,22 +42,18 @@
         font-size: 1.15rem;
         text-align: justify;
         @media screen and (max-width: 770px) {
-            width: 100%;
-            display: inline;
             @include flex(center, center);
         }
-        @media screen and (max-width:550px){
-            padding-right: 30px;
-        }
-        @media screen and (max-width: 450px) {
-            font-size: .9rem;
+        @media screen and (max-width: 550px) {
+            width: 75%;
+            font-size: .8rem;
         }
     }
 
     .nameTitle {
         font-size: 4rem;
         color: $secondary;
-        @media screen and (max-width: 770px) {
+        @media screen and (max-width: 770px){
             font-size: 3rem;
         }
         @media screen and (max-width: 450px) {
