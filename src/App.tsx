@@ -6,6 +6,7 @@ import TechSection from "./components/TechSection";
 import Card from "./components/Card";
 import ProjectsSection from "./components/ProjectSection";
 import useSetLanguage from "./hooks/useSetLanguage";
+import { Footer } from "./components/Footer";
 
 function App() {
   const { lang, changeLang } = useSetLanguage();
@@ -92,12 +93,7 @@ function App() {
         />
       </TechSection>
       <ProjectsSection lang={lang} />
-      <footer className="w-100 d-flex flex-column justify-content-center align-items-center">
-        <span className="d-block ms-5">{lang !== '🇺🇸 (EN-US)' ? 'Other Social Media' : 'Outras Redes Sociais'}</span>
-        <div className="d-flex justify-content-center align-items-center gap-3">
-          <a className="main-color">@enzobozzani</a><a href="https://www.instagram.com/enzobozzani/"  target="_blank" className="main-color">Instagram</a><a href="https://twitter.com/enzobozzani" target="_blank" className="main-color">Twitter</a>
-        </div>
-      </footer>
+      <Footer lang={lang}/>
     </>
   )
 }
