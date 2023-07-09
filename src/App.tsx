@@ -89,7 +89,7 @@ function App() {
               :
               "Meu primeiro contato com o Node.js ocorreu na faculdade, durante a disciplina de Desenvolvimento Web. Embora tenha sido uma introdução breve, essa experiência despertou meu interesse em explorar mais a fundo essa poderosa tecnologia. Durante o curso FullStack JS, pude mergulhar mais profundamente no ecossistema do Node.js, explorando seus recursos e funcionalidades e iniciando minha trajetória no desenvolvimento back-end."
           }
-          url="https://github.com/EnzoBozzani/portfolio"
+          url="https://github.com/EnzoBozzani/to-do-list"
         />
       </TechSection>
       <ProjectsSection lang={lang} />
