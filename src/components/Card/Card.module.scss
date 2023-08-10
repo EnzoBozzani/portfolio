@@ -11,7 +11,7 @@
     border-radius: 30px !important;
     border: 2px solid $secondary !important;
     background-color: $main !important;
-    min-height: 670px !important;
+    min-height: 550px !important;
 
     @media screen and (max-width: 1200px) {
         width: 42%;
@@ -37,8 +37,7 @@
     }
 
     .techCardBody {
-        @include flex(space-between, center);
-        flex-direction: column;
+        @include flex(center, center);
         border-top: 2px solid $secondary !important;
         border-radius: 0 0 30px 30px !important;
         background-color: $main;
