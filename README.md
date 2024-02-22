@@ -38,4 +38,22 @@
 
 ## Run application:
 
-It's possible to access the application through the link: [https://enzobozzani.netlify.app](https://enzobozzani.netlify.app)
+My current portfolio is available at: [https://enzobozzani.vercel.app](https://enzobozzani.vercel.app)
+
+Clone project:
+
+```
+git clone https://github.com/EnzoBozzani/portfolio2.0.git
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run project:
+
+```
+npm run dev
+```
